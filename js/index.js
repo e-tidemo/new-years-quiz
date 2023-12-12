@@ -54,13 +54,6 @@ const questions = [
     "correct": 1
   },
   {
-    "question": "What do people in Brazil do to bring good luck for the coming year?",
-    "aswers": [
-      "Make seven wishes while jumping seven waves", "Make three wishes while releasing floating candles in the water", "Make three wishes while releasing floating rice paper lanterns", "Make seven wishes while eating seven grapes within the last 10 minutes before midnight"
-    ],
-    "correct": 0
-  },
-  {
     "question": "What colour of underwear is considered lucky to wear on New Year's Eve in Italy?",
     "answers": [
       "Blue", "Red", "Yellow", "Green"
@@ -171,12 +164,14 @@ function checkAnswer(answerNumber) {
 function showStart() {
   document.getElementById('startSection').style.display = 'block';
   document.getElementById('rulesSection').style.display = 'none';
+  document.getElementById('questionsSection').style.display = 'none';
 }
 
 // Function to show the "rules" section and hide the "start" section
 function showRules() {
   document.getElementById('startSection').style.display = 'none';
   document.getElementById('rulesSection').style.display = 'block';
+  document.getElementById('questionsSection').style.display = 'none';
 }
 
 // Function to show the questions section and hide the "start" and "rules" sections
