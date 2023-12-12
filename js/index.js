@@ -1,5 +1,4 @@
 //getters
-
 const question = document.getElementById('question');
 const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
@@ -138,7 +137,12 @@ function loadAnswers(questionNumber) {
   answer3.innerText = questions[questionNumber].answers[2];
   answer4.innerText = questions[questionNumber].answers[3];
 }
-
+function sober() {
+  blurArea.style.display = 'none';
+}
+function drunk() {
+  blurArea.style.display = 'block';
+}
 function checkAnswer(answerNumber) {
   console.log('answer number chosen: ', answerNumber);
   // we check what the correct answer is for this question
@@ -147,6 +151,9 @@ function checkAnswer(answerNumber) {
      // if correct we increment the score by 1
     scoreAmount++;
     score.innerText = scoreAmount;
+    sober();
+  } else {
+    drunk();
   }
   // after we increment the questionNumber
   questionNumber ++;
@@ -160,6 +167,26 @@ function checkAnswer(answerNumber) {
   }
 }
 
+// Function to show the "start" section and hide the "rules" section
+function showStart() {
+  document.getElementById('startSection').style.display = 'block';
+  document.getElementById('rulesSection').style.display = 'none';
+}
+
+// Function to show the "rules" section and hide the "start" section
+function showRules() {
+  document.getElementById('startSection').style.display = 'none';
+  document.getElementById('rulesSection').style.display = 'block';
+}
+
+// Function to show the questions section and hide the "start" and "rules" sections
+function showQuestions() {
+  document.getElementById('startSection').style.display = 'none';
+  document.getElementById('rulesSection').style.display = 'none';
+  document.getElementById('questionsSection').style.display = 'block';
+}
+
+// Function to show the question about playing again
 function endgame() {
   playAgain.style.visibility = "visible";
 }
@@ -171,9 +198,27 @@ function endgameOption(chosen) {
     window.location.href='https://google.com';
   }
 }
+
 function startQuiz() {
-  playAgain.style.visibility = "hidden";
+  playAgain.style.visibility = 'hidden';
+  sober()
+  // Start by showing the "start" section
+  showStart();
+  // Increment questionNumber before loading the first question
+  questionNumber++;
   loadQuestion(questionNumber);
   loadAnswers(questionNumber);
 }
+function next(sectionNumber) {
+  if (sectionNumber === 0) {
+    // If "Yes" button is clicked, show the "rules" section
+    showRules();
+  } else if (sectionNumber === 1) {
+    // If "Let's go!" button is clicked, show the questions section
+    showQuestions();
+  }
+}
+
 startQuiz()
+
+
