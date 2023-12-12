@@ -211,10 +211,8 @@ function startQuiz() {
 }
 function next(sectionNumber) {
   if (sectionNumber === 0) {
-    // If "Yes" button is clicked, show the "rules" section
     showRules();
   } else if (sectionNumber === 1) {
-    // If "Let's go!" button is clicked, show the questions section
     showQuestions();
   }
 }
