@@ -23,8 +23,9 @@ h1, h2 {
 
 button {
     font-family: 'Inconsolata', sans-serif;
-    width: fit-content;
-    padding: ;
+    padding: 13px 13px;
+    z-index: 99;
+    font-size: large;
 }
 
 .container {
@@ -35,7 +36,6 @@ button {
     background-position: center;
     overflow: hidden;
     position: relative;
-    z-index: -1;
 }
 
 #blurArea {
@@ -46,7 +46,7 @@ button {
     top: 0;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    z-index: 0;
+    /*z-index: 0;*/
 }
 
 #startSection, #rulesSection, #questionsSection {
@@ -58,12 +58,13 @@ button {
     position: relative;
     flex-direction: column;
     text-align: center;
-    z-index: 99;
+    /*z-index: 98;*/
     max-width: 30rem;
     height: 30rem;
     margin: auto;
     overflow: auto;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 

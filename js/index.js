@@ -131,11 +131,12 @@ function loadAnswers(questionNumber) {
   answer4.innerText = questions[questionNumber].answers[3];
 }
 function sober() {
-  blurArea.style.display = 'none';
+  document.getElementById('blurArea').style.display = 'none';
 }
 function drunk() {
-  blurArea.style.display = 'block';
+  document.getElementById('blurArea').style.display = 'block';
 }
+
 function checkAnswer(answerNumber) {
   console.log('answer number chosen: ', answerNumber);
   // we check what the correct answer is for this question
