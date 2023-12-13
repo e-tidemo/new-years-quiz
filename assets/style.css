@@ -15,6 +15,8 @@ body {
     background-color: #161618;
     color: #f7f7fa;
     font-family: 'Inconsolata', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 h1, h2 {
@@ -51,17 +53,15 @@ button {
     top: 0;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
+    
 }
 
 #startSection, #rulesSection, #questionsSection {
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #f7f7fa;
     color: #161618;
     opacity: .85;
     position: relative;
-    flex-direction: column;
     text-align: center;
     max-width: 40rem;
     overflow: auto;
@@ -73,12 +73,10 @@ button {
 
 #playAgain {
     display: flex;
-    justify-content: center;
     background-color: #f7f7fa;
     color: #161618;
     opacity: .85;
     position: relative;
-    flex-direction: column;
     text-align: center;
     max-width: 40rem;
     overflow: auto;
