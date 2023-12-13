@@ -185,7 +185,7 @@ function showQuestions() {
 // Function to show the question about playing again
 function endgame() {
   playAgain.style.display = 'block';
-  questionsSection.style.display = 'none';
+  document.getElementById('questionsSection').style.display = 'none';
 }
 
 function endgameOption(chosen) {
@@ -197,10 +197,12 @@ function endgameOption(chosen) {
 }
 
 function startQuiz() {
-  playAgain.style.visibility = 'hidden';
+  playAgain.style.display = 'none';
   sober()
   // Start by showing the "start" section
   showStart();
+
+  questionNumber = -1;
   // Increment questionNumber before loading the first question
   questionNumber++;
   loadQuestion(questionNumber);
