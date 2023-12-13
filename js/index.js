@@ -184,7 +184,9 @@ function showQuestions() {
 
 // Function to show the question about playing again
 function endgame() {
-  playAgain.style.visibility = "visible";
+  score.innerText = scoreAmount;
+  playAgain.style.visibility = 'visible';
+  questionsSection.style.visibility = 'hidden';
 }
 
 function endgameOption(chosen) {

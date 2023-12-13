@@ -49,7 +49,7 @@ button {
     /*z-index: 0;*/
 }
 
-#startSection, #rulesSection, #questionsSection {
+#startSection, #rulesSection, #questionsSection, #playAgain {
     display: flex;
     align-items: center;
     background-color: #f7f7fa;
