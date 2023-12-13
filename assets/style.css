@@ -19,6 +19,7 @@ body {
 
 h1, h2 {
     font-family: 'Silkscreen', 'Inconsolata', sans-serif;
+    background-color: #f8850a;
 }
 
 button {
@@ -26,6 +27,10 @@ button {
     padding: 13px 13px;
     z-index: 99;
     font-size: large;
+    font-weight: 700;
+    background-color: #ec5926;
+    text-decoration: none;
+    margin: .5rem;
 }
 
 .container {
@@ -46,28 +51,41 @@ button {
     top: 0;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    /*z-index: 0;*/
 }
 
-#startSection, #rulesSection, #questionsSection, #playAgain {
+#startSection, #rulesSection, #questionsSection {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #f7f7fa;
     color: #161618;
     opacity: .85;
     position: relative;
     flex-direction: column;
     text-align: center;
-    /*z-index: 98;*/
-    max-width: 30rem;
-    height: 30rem;
-    margin: auto;
+    max-width: 40rem;
     overflow: auto;
     flex-wrap: wrap;
-    gap: 1rem;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 20px;
 }
 
-
+#playAgain {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7fa;
+    color: #161618;
+    opacity: .85;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40rem;
+    overflow: auto;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin: auto;
+}
 
 
 
