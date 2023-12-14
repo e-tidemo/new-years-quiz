@@ -128,6 +128,16 @@ button {
     padding: 20px;
 }
 
+footer {
+    margin-top: auto;
+    background-color: #f8850a;
+
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    padding: 0.75em;
+    position: static;
+}
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
