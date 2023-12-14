@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!--Meta tags for search engines-->
+  <meta name="description" content="New year's eve quiz. A quiz about New Year's Eve around the world. Themed quiz.">
+  <meta name="keywords" content="new years eve quiz, new year's eve game, new year's eve, quiz, themed quiz">
+  <!--Title-->
+  <title>NYE Quiz</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body> 
   <noscript>Your browser does not support JavaScript!</noscript>
+  <!--Header-->
   <header>    
     <div class="header-left">
       <button id="restart" onclick="endgameOption(0)">Restart</button>
@@ -16,8 +21,10 @@
       <div id="count">Score: <span id="score">0</span></div>
     </div>
   </header>
-  <div class="container">
+  <!--Background-->
+   <div class="container">
      <div id="blurArea"></div>
+  <!--Instructions + rules-->
    <div class="instructions-container">
      <div id="startSection" class="start">
         <h1>New Year's Eve Drunk Quiz</h1><br>
@@ -34,6 +41,7 @@
         <button onclick="next(1)">Let's go!</button>
      </div>
     </div>
+  <!--Questions-->
   <div class="all-questions" id="questionsSection">
     <h1>NYE Drunk Quiz</h1>
     <div id="question"></div>
@@ -42,13 +50,28 @@
     <button id="answer3" onclick="checkAnswer(2)"></button>
     <button id="answer4" onclick="checkAnswer(3)"></button>
   </div>
+  <!--Play again?-->
   <div id="playAgain">
     <h2>The End!</h2><br>
     <p>Would you like another go?</p>
     <button onclick="endgameOption(0)">Yes</button>
+  <!--Add a form for feedback!-->
+    <button onclick="">No, but I have feedback</button>
     <button onclick="endgameOption(1)">No, get me outta here!</button>
   </div>
-</div>
+ </div>
+    <!--Footer-->
+ <footer>
+        <span>
+            Find us on:
+        </span>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+            aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener"
+            aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+            aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+ </footer>
   <script src="js/index.js"></script>
 </body>
 </html>
