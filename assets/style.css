@@ -8,6 +8,29 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: transparent;
+    position: fixed;
+    padding: 0 1rem;
+    z-index: 98;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    top: 0;
+}
+
+#count, #score {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Silkscreen', 'Inconsolata', sans-serif;
+    font-size: 3rem;
+}
+
+#restart {
+    display: flex;
+    justify-content: flex-start;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -68,6 +91,7 @@ button {
     flex-wrap: wrap;
     font-size: 1.5rem;
     margin: auto;
+    margin-top: 10rem;
     padding: 20px;
     z-index: 99;
 }
@@ -84,6 +108,7 @@ button {
     flex-wrap: wrap;
     font-size: 1.5rem;
     margin: auto;
+    margin-top: 10rem;
     z-index: 99;
 }
 
