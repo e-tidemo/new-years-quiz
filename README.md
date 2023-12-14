@@ -33,7 +33,7 @@ The overall goal was for the website to work on a range of different devices.
     In the header one can see a score count that increases with each correct answer and also a restart button that will bring the player back to the start of the quiz.
    - ### Blur effect
     As the concept is a "drunk quiz", there is a feature that blurs the background when the player answers a question wrong. This is to highlight the "punishment" which is to take a shot (found in the rules). Once the player answers another question correctly, the blur effect disappears again.
-   - ### Play again
+   - ### Play again?
     At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a google form in a different window and if the player chooses to play again they are redirected to the start page.
   - ## Future Features
     - In the future, the quiz as a game would benefit a lot from having more questions and it displaying a random selection of these each time one plays. That way one can play the game more times with more excitement. As it is now, one can replay until one finds all the correct answers but then it will become a bit boring and not very challenging.
@@ -41,3 +41,16 @@ The overall goal was for the website to work on a range of different devices.
 - # Design
   - ## Colour Scheme:
   ![colour palette](documentation/support-images/quiz-colors.png)
+  The colour palette was inspired by the background image with the addition of white for contrast purposes so that the page will be as accessible as possible with sufficient contrasting colours.
+
+  - ## Background image
+  ![Background image](assets/images/pexels-sebastian-hietsch-10967.webp)
+  The imagery for the background was chosen to fit the theme of New Year's Eve and it needed to have enough details that the blur effect was effective enough. I also chose an image without text that would not distract from the contents of the webpage.
+
+  - ## Typography
+  Google fonts were used to import two different fonts:
+
+   - Inconsolata - which was used for the paragraphs and questions
+   - Silkscreen - which was used for all headings as well as the score
+
+   The font for the headings was chosen to signal that the webpage is a game, as it is reminiscent of the early video games that were very pixelated.
