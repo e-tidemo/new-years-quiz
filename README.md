@@ -43,7 +43,7 @@ The overall goal was for the website to work on a range of different devices.
   ![colour palette](documentation/support-images/quiz-colors.png)
   The colour palette was inspired by the background image with the addition of white for contrast purposes so that the page will be as accessible as possible with sufficient contrasting colours.
 
-  - ## Background image
+  - ## Imagery
   ![Background image](assets/images/pexels-sebastian-hietsch-10967.webp)
   The imagery for the background was chosen to fit the theme of New Year's Eve and it needed to have enough details that the blur effect was effective enough. I also chose an image without text that would not distract from the contents of the webpage.
 
@@ -53,4 +53,10 @@ The overall goal was for the website to work on a range of different devices.
    - Inconsolata - which was used for the paragraphs and questions
    - Silkscreen - which was used for all headings as well as the score
 
-   The font for the headings was chosen to signal that the webpage is a game, as it is reminiscent of the early video games that were very pixelated.
+  The font for the headings was chosen to signal that the webpage is a game, as it is reminiscent of the early video games that were very pixelated.
+
+  - ## Wireframes
+  ![Wireframe rules - browser](documentation/wireframes/browser%20-%20rules.png)
+  ![Wireframe question - browser](documentation/wireframes/browser%20-%20question.png)
+  ![Wireframe question - ipad](documentation/wireframes/ipad.png)
+  ![Wireframe question - mobile device](documentation/wireframes/mobile%20device.png)

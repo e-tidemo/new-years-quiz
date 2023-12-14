@@ -9,19 +9,23 @@
 <body> 
   <noscript>Your browser does not support JavaScript!</noscript>
   <header>    
-    <div id="restart"><button onclick="endgameOption(0)">Restart</button></div>
-    <div id="count">Score: <span id="score">0</span></div>
+    <div class="header-left">
+      <button id="restart" onclick="endgameOption(0)">Restart</button>
+    </div>
+    <div class="header-right">
+      <div id="count">Score: <span id="score">0</span></div>
+    </div>
   </header>
   <div class="container">
      <div id="blurArea"></div>
    <div class="instructions-container">
      <div id="startSection" class="start">
-        <h1>New Year's Eve Drunk Quiz</h1>
+        <h1>New Year's Eve Drunk Quiz</h1><br>
         <p>This is a quiz guaranteed to have you smashed by the end of it! Are you ready?</p>
         <button onclick="next(0)">Yes!</button>
      </div>
      <div id="rulesSection" class="rules">
-        <h2>Rules</h2>
+        <h2>Rules</h2><br>
         <ol>
             <li>No googling the answers</li>
             <li>Every time you get a question wrong, you take a shot</li>
@@ -39,7 +43,7 @@
     <button id="answer4" onclick="checkAnswer(3)"></button>
   </div>
   <div id="playAgain">
-    <h2>The End!</h2>
+    <h2>The End!</h2><br>
     <p>Would you like another go?</p>
     <button onclick="endgameOption(0)">Yes</button>
     <button onclick="endgameOption(1)">No, get me outta here!</button>
