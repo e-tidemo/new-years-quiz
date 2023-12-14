@@ -14,16 +14,27 @@ header {
     padding: 0 1rem;
     z-index: 98;
     width: 100%;
-    flex-direction: column;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     top: 0;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #count, #score {
     display: flex;
     justify-content: flex-end;
     font-family: 'Silkscreen', 'Inconsolata', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #restart {
@@ -51,7 +62,7 @@ button {
     font-family: 'Inconsolata', sans-serif;
     padding: 13px 13px;
     z-index: 99;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: 700;
     background-color: #ec5926;
     text-decoration: none;
@@ -113,12 +124,14 @@ button {
 }
 
 
-
-
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     #startSection, #rulesSection, #questionsSection {
         width: 90%; 
         height: auto; 
+    }
+
+    #count, #score {
+        font-size: large;
     }
 }
