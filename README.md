@@ -2,6 +2,8 @@
 
 This is a quiz website for any New Year's Eve party where drinks are consumed (alcoholic or non-alcoholic). The aim of the game is to create some fun and as it is a drunk quiz, there are some features relating to that theme. These features include the rules that state that you should drink every time you answer a question incorrectly and each time you do click the incorrect answer, the page goes blurry.
 
+The intended use for the quiz is for my New Year's Eve party so the quiz will be displayed on a big screen but then everyone will follow along and play on their own phones. This has affected some of the decisions on features when building the webpage.
+
 //Insert picture of the website//
 
 [View live website here]
@@ -36,7 +38,10 @@ The overall goal was for the website to work on a range of different devices.
    - ### Play again?
     At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a google form in a different window and if the player chooses to play again they are redirected to the start page.
   - ## Future Features
+    The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
+
     - In the future, the quiz as a game would benefit a lot from having more questions and it displaying a random selection of these each time one plays. That way one can play the game more times with more excitement. As it is now, one can replay until one finds all the correct answers but then it will become a bit boring and not very challenging.
+    - Another future feature that would be neat is to have a timer for each question that gives you x amount of seconds to answer but as this quiz is intended to be used in a group, it was not applied this time around as it would have made the group following along in the same quiz a bit too complicated.
 
 - # Design
   - ## Colour Scheme:
