@@ -8,7 +8,7 @@ const score = document.getElementById('score');
 const playAgain = document.getElementById('playAgain');
 
 let questionNumber = 0;
-let scoreAmount = 0
+let scoreAmount = 0;
 
 const questions = [
   {
@@ -140,7 +140,7 @@ function drunk() {
 function checkAnswer(answerNumber) {
   console.log('answer number chosen: ', answerNumber);
   // we check what the correct answer is for this question
-  let correctAnswer = questions[questionNumber].correct
+  let correctAnswer = questions[questionNumber].correct;
   if (answerNumber === correctAnswer) {
      // if correct we increment the score by 1
     scoreAmount++;
@@ -190,7 +190,7 @@ function endgame() {
 
 function endgameOption(chosen) {
   if (chosen === 0) {
-    window.location.reload()
+    window.location.reload();
   } else {
     window.location.href='https://google.com';
   }
@@ -198,7 +198,7 @@ function endgameOption(chosen) {
 
 function startQuiz() {
   playAgain.style.display = 'none';
-  sober()
+  sober();
   // Start by showing the "start" section
   showStart();
 
@@ -216,6 +216,6 @@ function next(sectionNumber) {
   }
 }
 
-startQuiz()
+startQuiz();
 
 

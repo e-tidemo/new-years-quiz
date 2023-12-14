@@ -7,15 +7,20 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body> 
-<div class="container">
-    <div id="blurArea"></div>
-  <div class="instructions-container">
-    <div id="startSection" class="start">
+  <noscript>Your browser does not support JavaScript!</noscript>
+  <header>    
+    <div><button onclick="endgameOption(0)">Restart</button></div>
+    <div>Score: <span id="score">0</span></div>
+  </header>
+  <div class="container">
+     <div id="blurArea"></div>
+   <div class="instructions-container">
+     <div id="startSection" class="start">
         <h1>New Year's Eve Drunk Quiz</h1>
         <p>This is a quiz guaranteed to have you smashed by the end of it! Are you ready?</p>
         <button onclick="next(0)">Yes!</button>
-    </div>
-    <div id="rulesSection" class="rules">
+     </div>
+     <div id="rulesSection" class="rules">
         <h2>Rules</h2>
         <ol>
             <li>No googling the answers</li>
@@ -23,8 +28,8 @@
             <li>That's it.</li>
         </ol>
         <button onclick="next(1)">Let's go!</button>
+     </div>
     </div>
-  </div>
   <div class="all-questions" id="questionsSection">
     <h1>NYE Drunk Quiz</h1>
     <div id="question"></div>
@@ -32,8 +37,6 @@
     <button id="answer2" onclick="checkAnswer(1)"></button>
     <button id="answer3" onclick="checkAnswer(2)"></button>
     <button id="answer4" onclick="checkAnswer(3)"></button>
-    <hr>
-    <div>Score: <span id="score">0</span></div>
   </div>
   <div id="playAgain">
     <h2>The End!</h2>
