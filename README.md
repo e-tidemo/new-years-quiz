@@ -33,14 +33,19 @@ The overall goal was for the website to work on a range of different devices.
   - ## Existing Features
    - ### Header
     In the header one can see a score count that increases with each correct answer and also a restart button that will bring the player back to the start of the quiz.
+   - ### Name input
+    At the start of the quiz, the player submits their name to the webpage and their name then appears next to the score-count in the header.
    - ### Blur effect
     As the concept is a "drunk quiz", there is a feature that blurs the background when the player answers a question wrong. This is to highlight the "punishment" which is to take a shot (found in the rules). Once the player answers another question correctly, the blur effect disappears again.
    - ### Play again?
     At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a google form in a different window and if the player chooses to play again they are redirected to the start page.
+  - ### Footer
+    In the footer, there are links to social media pages where one could, in theory, follow the quizmakers' pages. There is also a link to the github repository where the project is stored as this is a project that people can keep building on and developing further.
+    
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
 
-    - In the future, the quiz as a game would benefit a lot from having more questions and it displaying a random selection of these each time one plays. That way one can play the game more times with more excitement. As it is now, one can replay until one finds all the correct answers but then it will become a bit boring and not very challenging.
+    - In the future, the quiz as a game would benefit a lot from having more questions and it displaying a random selection of these each round. That way one can play the game more times with more excitement. As it is now, one can replay the quiz until one finds all the correct answers but then it will become a bit boring and not very challenging.
     - Another future feature that would be neat is to have a timer for each question that gives you x amount of seconds to answer but as this quiz is intended to be used in a group, it was not applied this time around as it would have made the group following along in the same quiz a bit too complicated.
 
 - # Design
