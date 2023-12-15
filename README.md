@@ -18,7 +18,7 @@ The intended use for the quiz is for my New Year's Eve party so the quiz will be
 * [Credits] (#credits)
 
 - # User Experience (UX)
-The overall goal was for the website to work on a range of different devices.
+The overall goal was for the website to work on a range of different devices. Furthermore, considering the intended audience is a group of people I, myself, know in a New Year's party setting, the theme is a playful one and alcohol consumption need not to be problematised (as it might have should the quiz appeal to a different type of group, for example in a corporate setting).
   
   - ## 1. Goals for a First Time Visitor
     - For a first time visitor, it is important that one can quickly grasp what the website is about.
@@ -27,7 +27,7 @@ The overall goal was for the website to work on a range of different devices.
     - For a first time visitor, it is also important that one can restart the game in case one of the rules were missed or one accidently advances too fast.
   - ## 2. Goals for a Frequent Visitor
     - For a frequent visitor many of the goals are similar as for the first time visitor but for a frequent visitor it is important to get the game started easily and quickly.
-    - For a frequent visitor, it is also of value to be able to leave feedback about the quiz.
+    - For a returning or frequent visitor, it is also of value to be able to leave feedback about the quiz. This is also important for the future of the webpage as it can then continue to grow and improve the user experience further with the users' feedback.
 
 - # Features
   - ## Existing Features
@@ -41,7 +41,7 @@ The overall goal was for the website to work on a range of different devices.
     At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a google form in a different window and if the player chooses to play again they are redirected to the start page.
   - ### Footer
     In the footer, there are links to social media pages where one could, in theory, follow the quizmakers' pages. There is also a link to the github repository where the project is stored as this is a project that people can keep building on and developing further.
-    
+
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
 
@@ -70,3 +70,10 @@ The overall goal was for the website to work on a range of different devices.
   ![Wireframe question - browser](documentation/wireframes/browser%20-%20question.png)
   ![Wireframe question - ipad](documentation/wireframes/ipad.png)
   ![Wireframe question - mobile device](documentation/wireframes/mobile%20device.png)
+
+  - # Accessibility
+    I have done the following to make sure that the website is as accessible as possible:
+    - Used demantic HTML
+    - Used contrasting colours throughout the website
+    - Used descriptive al attributes on any images
+    - Provided information for screen readers about links to other websites etc.

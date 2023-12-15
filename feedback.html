@@ -18,19 +18,21 @@
         <button id="restart" onclick="endgameOption(0)">Restart</button>
       </div>
     </header>
-    <!--Background-->
-     <div class="container">
-       <div id="blurArea"></div>
-     </div>
+    <!--Feedback form-->
     <div id="form-container">
-      <form action="mailto:elvira.d.tidemo@gmail.com">
+      <form id="form" action="mailto:elvira.d.tidemo@gmail.com">
+        <h1>Feedback</h1>
+        <br>
         <label for="name-field">Name</label>
         <input type="text" id="name-field" aria-label="fill in your name">
+        <br>
         <label for="good">This was really good</label>
         <input type="text" id="good" aria-label="fill in what was good about the quiz" required/>
+        <br>
         <label for="improvements">This could be improved</label>
         <input type="text" id="improvements" aria-label="fill in what should be improved about the quiz" required/>
-        <input type="submit">
+        <br>
+        <input type="submit" id="submit">
       </form>
     </div>
 </body>
