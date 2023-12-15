@@ -38,9 +38,11 @@ The overall goal was for the website to work on a range of different devices. Fu
    - ### Blur effect
     As the concept is a "drunk quiz", there is a feature that blurs the background when the player answers a question wrong. This is to highlight the "punishment" which is to take a shot (found in the rules). Once the player answers another question correctly, the blur effect disappears again.
    - ### Play again?
-    At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a google form in a different window and if the player chooses to play again they are redirected to the start page.
+    At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a form in a different window and if the player chooses to play again they are redirected to the start page.
   - ### Footer
     In the footer, there are links to social media pages where one could, in theory, follow the quizmakers' pages. There is also a link to the github repository where the project is stored as this is a project that people can keep building on and developing further.
+  - ### Feedback
+    At the end of the quiz, the player is given a choice between three options and one of them is to submit feedback about the quiz. The form includes three text inputs: name, positive feedback and suggestions for improvements. When the submit button is clicked, the feedback is sent to an email adress as this seemed easiest for me to gather the feedback quickly and it seemed sufficient since I do not expect a lot of feedback based on the limited amount of users.
 
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
