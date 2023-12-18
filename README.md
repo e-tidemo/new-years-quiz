@@ -6,7 +6,7 @@ The intended use for the quiz is for my New Year's Eve party so the quiz will be
 
 //Insert picture of the website//
 
-[View live website here]
+[View live website here](https://e-tidemo.github.io/new-years-quiz/)
 
 # Index - Table of Contents
 * [User experience (UX)] (#user-experience-ux)
@@ -79,3 +79,33 @@ The overall goal was for the website to work on a range of different devices. Fu
     - Used contrasting colours throughout the website
     - Used descriptive al attributes on any images
     - Provided information for screen readers about links to other websites etc.
+
+- # Technologies Used
+  - ## Language Used
+    The languages used for this website are HTML, CSS and JavaScript.
+
+  - ## Frameworks, Libraries and Programs Used
+    [Balsamiq:](https://balsamiq.com/) was used to create wireframes
+    
+    [Pexels:](https://www.pexels.com/sv-se/) was used to find images for the styling of the webpage.
+
+    [Google Fonts:](https://fonts.google.com/) was used to import the 'Inconsolata' and 'Silkscreen' fonts into the style.css file which are used on all pages of the project.
+
+    [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+    [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+
+- # Deployment
+    The website was deployed using github and the following instructions:
+    
+    1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+    2. From the source section drop-down menu, select the Master Branch
+
+    3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+    4. Any changes pushed to the master branch will take effect on the live project
+
+    I have continuously used git as my local repository and github as my online repository. To do this, I have created a git repository and then, with any changes I have sent git commits to my local repository and, by using git push, I sent it to my github repository.
+
+    The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
