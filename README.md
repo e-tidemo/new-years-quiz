@@ -116,5 +116,5 @@ The overall goal was for the website to work on a range of different devices. Fu
     - ## Credits
   - ### Code Used
   https://www.geeksforgeeks.org/how-to-perform-form-validation-for-a-required-field-in-html/ (How to make sure the form is not submitable without input)
-  https://www.tutorialspoint.com/How-do-we-send-an-email-using-HTML-forms#:~:text=To%20send%20an%20email%20using,%3Aemailid%40example.com. (How to direct a form to an email)
+
   https://www.youtube.com/watch?v=f-lSGDjeHCk (How to blur)

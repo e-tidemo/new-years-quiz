@@ -58,6 +58,10 @@ h1, h2 {
     background-color: #f8850a;
 }
 
+p {
+    font-family: 'Inconsolata';
+}
+
 button {
     font-family: 'Inconsolata', sans-serif;
     padding: 13px 13px;
@@ -90,6 +94,11 @@ button {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     z-index: 0;
+}
+
+ol {
+    list-style-type: none;
+    font-weight: 700;
 }
 
 #startSection, #rulesSection, #questionsSection {
@@ -182,6 +191,26 @@ input {
     font-size: large;
 }
 
+/* Thank you page */
+
+#thankyou {
+    display: flex;
+    background-color: #f7f7fa;
+    color: #161618;
+    opacity: .85;
+    position: relative;
+    text-align: center;
+    max-width: 30rem;
+    overflow: auto;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin: auto;
+    z-index: 99;
+    border-radius: .5rem;
+    padding: 20px;
+    position: absolute;
+}
+
 /* Footer */
 footer {
     margin-top: auto;
@@ -201,6 +230,14 @@ footer {
     }
 
     #count, #score {
+        font-size: large;
+    }
+
+    h1, h2 {
+        font-size: x-large;
+    }
+
+    p {
         font-size: large;
     }
 }

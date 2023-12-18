@@ -6,6 +6,8 @@
   <!--Meta tags for search engines-->
   <meta name="description" content="New year's eve quiz. A quiz about New Year's Eve around the world. Themed quiz.">
   <meta name="keywords" content="new years eve quiz, new year's eve game, new year's eve, quiz, themed quiz">
+  <!--Timer-->
+  <!--<meta http-equiv="refresh" content="15; url=index.html">-->
   <!--Title-->
   <title>NYE Quiz</title>
   <link rel="stylesheet" href="assets/style.css">
@@ -18,22 +20,15 @@
         <button class="restart" onclick="redirect()">Restart</button>
       </div>
     </header>
-    <!--Feedback form-->
-    <div id="form-container">
-      <form id="form" action="thankyou.html">
-        <h1>Feedback</h1>
+    <!--Background-->
+    <div class="container"></div>
+    <!--Thank you for your feedback-->
+    <div id="thankyou">
+        <h1>Thank you for your feedback!</h1>
         <br>
-        <label for="name-field">Name</label>
-        <input type="text" id="name-field" aria-label="fill in your name">
+        <p>We appreciate that you took time to send us some feedback and we will take it into consideration as we continue to develop and grow.</p>
         <br>
-        <label for="good">This was really good</label>
-        <input type="text" id="good" aria-label="fill in what was good about the quiz" required/>
-        <br>
-        <label for="improvements">This could be improved</label>
-        <input type="text" id="improvements" aria-label="fill in what should be improved about the quiz" required/>
-        <br>
-        <input type="submit" id="submit" class="restart">
-      </form>
+        <p>You will be redirected to the start page in 15 seconds</p>
     </div>
 </body>
     <!--Footer-->
