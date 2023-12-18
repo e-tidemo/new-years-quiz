@@ -75,9 +75,9 @@ The overall goal was for the website to work on a range of different devices. Fu
 
   - # Accessibility
     I have done the following to make sure that the website is as accessible as possible:
-    - Used demantic HTML
+    - Used semantic HTML
     - Used contrasting colours throughout the website
-    - Used descriptive al attributes on any images
+    - Used descriptive alt attributes on any images
     - Provided information for screen readers about links to other websites etc.
 
 - # Technologies Used
