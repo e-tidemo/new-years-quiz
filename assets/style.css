@@ -119,7 +119,9 @@ ol {
   .drunk-animation {
     animation: drunkBlur 4s infinite, drunkWobble 2s infinite;
   }
-
+  .sober-animation {
+    animation: drunkWobble 3s infinite;
+  }
 /* Common button styles */
 button {
     font-family: 'Inconsolata', sans-serif;
@@ -133,11 +135,9 @@ button {
     margin: .5rem;
     border-radius: .5rem;
 }
-
 /* Score count styles */
-
 #count, #score {
-    font-size: large;
+    font-size: 3rem;
     font-family: 'Silkscreen', 'Inconsolata', sans-serif;
 }
 
