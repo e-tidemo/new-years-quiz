@@ -36,7 +36,7 @@ The overall goal was for the website to work on a range of different devices. Fu
    - ### Name input
     At the start of the quiz, the player submits their name to the webpage and their name then appears next to the score-count in the header.
    - ### Blur effect
-    As the concept is a "drunk quiz", there is a feature that blurs the background when the player answers a question wrong. This is to highlight the "punishment" which is to take a shot (found in the rules). Once the player answers another question correctly, the blur effect disappears again.
+    As the concept is a "drunk quiz", there is a feature that makes the text box wobble a little bit throughout the quiz. There is also an effect that blurs the background and an animation that makes the question box wobble quicker than before and blur the text for 4 seconds (before it becomes clear again) when the player answers a question wrong. This is to highlight the "punishment" of answering a question incorrectly which is to take a shot (found in the rules). Once the player answers another question correctly, the blur effect and animation disappears again and the text box goes back to wobbling a bit slower.
    - ### Play again?
     At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a form in a different window and if the player chooses to play again they are redirected to the start page.
   - ### Footer
