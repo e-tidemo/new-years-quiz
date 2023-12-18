@@ -132,9 +132,11 @@ function loadAnswers(questionNumber) {
 }
 function sober() {
   document.getElementById('blurArea').style.display = 'none';
+  document.getElementById('questionsSection').classList.remove('drunk-animation');
 }
 function drunk() {
   document.getElementById('blurArea').style.display = 'block';
+  document.getElementById('questionsSection').classList.add('drunk-animation');
 }
 
 function checkAnswer(answerNumber) {

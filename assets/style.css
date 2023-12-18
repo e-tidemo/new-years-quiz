@@ -7,13 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* Common styles for header and footer */
 header, footer {
     text-align: center;
     padding: 0.75em;
 }
-
 /* Header styles */
 header {
     background-color: transparent;
@@ -26,11 +24,9 @@ header {
     align-items: center;
     top: 0;
 }
-
 .header-left, .header-right {
     display: flex;
 }
-
 /* Footer styles */
 footer {
     background-color: #f8850a;
@@ -38,7 +34,6 @@ footer {
     font-size: large;
     position: static;
 }
-
 /* Body styles */
 body {
     min-height: 100vh;
@@ -50,16 +45,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 h1, h2 {
     font-family: 'Silkscreen', 'Inconsolata', sans-serif;
     background-color: #f8850a;
 }
-
 p {
     font-family: 'Inconsolata';
 }
-
 /* Common styles for sections */
 #startSection, #rulesSection, #questionsSection, #playAgain, #thankyou, #form {
     display: flex;
@@ -79,11 +71,9 @@ p {
     padding: 20px;
     flex-direction: column;
 }
-
 ol {
     list-style-type: none;
 }
-
 /* Container styles */
 .container, #form-container {
     width: 100%;
@@ -94,7 +84,6 @@ ol {
     overflow: hidden;
     position: relative;
 }
-
 #blurArea {
     position: absolute;
     width: 100vw;
@@ -105,6 +94,31 @@ ol {
     backdrop-filter: blur(8px);
     z-index: 0;
 }
+@keyframes drunkBlur {
+    0%, 100% {
+      filter: blur(0px);
+    }
+    50% {
+      filter: blur(2px);
+    }
+  }
+  @keyframes drunkWobble {
+    0%, 100% {
+      transform: translateX(0) rotate(0deg);
+    }
+    25% {
+      transform: translateX(-5px) rotate(-3deg);
+    }
+    50% {
+      transform: translateX(0) rotate(0deg);
+    }
+    75% {
+      transform: translateX(5px) rotate(3deg);
+    }
+  }
+  .drunk-animation {
+    animation: drunkBlur 4s infinite, drunkWobble 2s infinite;
+  }
 
 /* Common button styles */
 button {
