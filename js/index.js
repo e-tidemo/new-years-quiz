@@ -196,6 +196,10 @@ function endgameOption(chosen) {
   }
 }
 
+function redirect(){
+  window.location.href='index.html';
+}
+
 function startQuiz() {
   playAgain.style.display = 'none';
   sober();
@@ -217,5 +221,3 @@ function next(sectionNumber) {
 }
 
 startQuiz();
-
-

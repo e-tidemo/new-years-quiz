@@ -109,3 +109,12 @@ The overall goal was for the website to work on a range of different devices. Fu
     I have continuously used git as my local repository and github as my online repository. To do this, I have created a git repository and then, with any changes I have sent git commits to my local repository and, by using git push, I sent it to my github repository.
 
     The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
+
+
+
+
+    - ## Credits
+  - ### Code Used
+  https://www.geeksforgeeks.org/how-to-perform-form-validation-for-a-required-field-in-html/ (How to make sure the form is not submitable without input)
+  https://www.tutorialspoint.com/How-do-we-send-an-email-using-HTML-forms#:~:text=To%20send%20an%20email%20using,%3Aemailid%40example.com. (How to direct a form to an email)
+  https://www.youtube.com/watch?v=f-lSGDjeHCk (How to blur)
