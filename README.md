@@ -116,5 +116,5 @@ The overall goal was for the website to work on a range of different devices. Fu
     - ## Credits
   - ### Code Used
   https://www.geeksforgeeks.org/how-to-perform-form-validation-for-a-required-field-in-html/ (How to make sure the form is not submitable without input)
-
+  https://www.w3schools.com/tags/att_meta_http_equiv.asp (Thank you page)
   https://www.youtube.com/watch?v=f-lSGDjeHCk (How to blur)
