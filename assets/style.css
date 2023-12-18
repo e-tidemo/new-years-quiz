@@ -166,7 +166,7 @@ input {
 @media (max-width: 768px) {
     #startSection, #rulesSection, #questionsSection {
         width: 90%; 
-        height: auto; 
+        height: auto;
     }
 
     #count, #score {
@@ -187,5 +187,9 @@ input {
 
     footer {
         font-size: medium;
+    }
+
+    #question {
+        font-size: large;
     }
 }
