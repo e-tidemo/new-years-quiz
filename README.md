@@ -121,6 +121,13 @@ The overall goal was for the website to work on a range of different devices. Fu
 
     The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
 
+    To run locally:
+    - Once logged into GitHub, click on repository to download.
+    - Select **Code** and click "download the zip file".
+    - Extract the zip file and use it in your local environment.
+
+    You can also **Clone** or **Fork** this repository in your own GitHub account.
+
 - # Testing
    Testing was done throughout the project, not least with Chrome developer tools which was used to troubleshoot issues that would arise while building the website and to test the responsiveness of the website on different devices.
 
@@ -157,6 +164,9 @@ The overall goal was for the website to work on a range of different devices. Fu
    ![Lighthouse testing for thank you-page](documentation/support-images/thank-you-page-lighthouse-test.png)
 
    - ## Credits
+   - ### Media
+     The image for the website's background is the only image and it was found here: (https://www.pexels.com/sv-se/)
+     
    - ### Code Used
    - I used the following page to learn how to make the meta tag that refreshes he thank you-page after 15 seconds: [Meta refresh tag](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
 
