@@ -41,7 +41,7 @@ The overall goal was for the website to work on a range of different devices. Fu
     ![Blur effect](documentation/support-images/quiz-blur-effect-feature-2.png)
 
   - ### Play again?
-    At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a form in a different window and if the player chooses to play again they are redirected to the start page.
+    At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to the Swedish national alcohol shop (it becomes a bit Swedish specific since the intended users are guests at my New Year's Eve party in Sweden). If the player wants to leave some feedback on the game, they can click that button which will open a form in a different window and if the player chooses to play again they are redirected to the start page.
     ![The end of the quiz](documentation/support-images/quiz-play-again-feature.png)
 
   - ### Footer
@@ -49,9 +49,9 @@ The overall goal was for the website to work on a range of different devices. Fu
     ![Footer](documentation/support-images/quiz-footer-feature.png)
 
   - ### Feedback
-    At the end of the quiz, the player is given a choice between three options and one of them is to submit feedback about the quiz. The form includes three text inputs: name, positive feedback and suggestions for improvements. When the submit button is clicked, the user is directed to a thank you page where they stay for 15 seconds before being redirected to the start page of the website.
+    At the end of the quiz, the player is given a choice between three options and one of them is to submit feedback about the quiz. The form includes three text inputs: name, positive feedback and suggestions for improvements. When the submit button is clicked, the user is directed to a thank you page.
     ![Feedback form](documentation/support-images/quiz-feedback-feature.png)
-    ![Thank you page](documentation/support-images/quiz-thankyou-feature.png)
+    ![Thank you page](documentation/support-images/quiz-thank-you-page.png)
 
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
@@ -106,35 +106,13 @@ The overall goal was for the website to work on a range of different devices. Fu
 
     [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 
-- # Deployment
-    The website was deployed using github and the following instructions:
-    
-    1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
-
-    2. From the source section drop-down menu, select the Master Branch
-
-    3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
-
-    4. Any changes pushed to the master branch will take effect on the live project
-
-    I have continuously used git as my local repository and github as my online repository. To do this, I have created a git repository and then, with any changes I have sent git commits to my local repository and, by using git push, I sent it to my github repository.
-
-    The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
-
-    To run locally:
-    - Once logged into GitHub, click on repository to download.
-    - Select **Code** and click "download the zip file".
-    - Extract the zip file and use it in your local environment.
-
-    You can also **Clone** or **Fork** this repository in your own GitHub account.
-
 - # Testing
    Testing was done throughout the project, not least with Chrome developer tools which was used to troubleshoot issues that would arise while building the website and to test the responsiveness of the website on different devices.
 
    I also tested the website in Google Chrome, Safari and Mozilla Firefox without any issues arising.
 
    - ## Manual Testing
-   ![Manual testing](documentation/support-images/manual-testing.png)
+   ![Manual testing](documentation/support-images/manual-testing1.png)
 
    - ## Testing User Stories
    ![User stories testing](documentation/support-images/testing-user-stories.png)
@@ -163,10 +141,33 @@ The overall goal was for the website to work on a range of different devices. Fu
    The Thank you-page:
    ![Lighthouse testing for thank you-page](documentation/support-images/thank-you-page-lighthouse-test.png)
 
-   - ## Credits
+
+- # Deployment
+    The website was deployed using github and the following instructions:
+    
+    1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+    2. From the source section drop-down menu, select the Master Branch
+
+    3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+    4. Any changes pushed to the master branch will take effect on the live project
+
+    I have continuously used git as my local repository and github as my online repository. To do this, I have created a git repository and then, with any changes I have sent git commits to my local repository and, by using git push, I sent it to my github repository.
+
+    The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
+
+    To run locally:
+    - Once logged into GitHub, click on repository to download.
+    - Select **Code** and click "download the zip file".
+    - Extract the zip file and use it in your local environment.
+
+    You can also **Clone** or **Fork** this repository in your own GitHub account.
+
+- # Credits
    - ### Media
      The image for the website's background is the only image and it was found here: (https://www.pexels.com/sv-se/)
-     
+
    - ### Code Used
    - I used the following page to learn how to make the meta tag that refreshes he thank you-page after 15 seconds: [Meta refresh tag](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
 

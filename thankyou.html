@@ -6,8 +6,6 @@
   <!--Meta tags for search engines-->
   <meta name="description" content="New year's eve quiz. A quiz about New Year's Eve around the world. Themed quiz.">
   <meta name="keywords" content="new years eve quiz, new year's eve game, new year's eve, quiz, themed quiz">
-  <!--Timer-->
-  <meta http-equiv="refresh" content="15; url=index.html" aria-label="You will be redirected from this page to the start page in 15 seconds">
   <!--Title-->
   <title>NYE Quiz</title>
   <link rel="stylesheet" href="assets/style.css">
@@ -19,11 +17,6 @@
       <div class="header-left">
         <button class="restart" onclick="redirect()">Restart</button>
       </div>
-      <script>
-        function redirect(){
-          window.location.href='index.html';
-        }
-      </script>
     </header>
     <!--Background-->
     <div class="container"></div>
@@ -32,10 +25,8 @@
         <h1>Thank you for your feedback!</h1>
         <br>
         <p>We appreciate that you took time to send us some feedback and we will take it into consideration as we continue to develop and grow.</p>
-        <br>
-        <p>You will be redirected to the start page in 15 seconds</p>
+        <button onclick="endgameOption(1)">You're welcome, now get me outta here</button>
     </div>
-</body>
     <!--Footer-->
     <footer>
         <span>Find this project on:</span>
@@ -50,4 +41,7 @@
             aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener"
             aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
- </footer>
+     </footer>
+<script src="js/index.js"></script>
+</body>
+</html>
