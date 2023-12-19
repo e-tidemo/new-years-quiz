@@ -9,13 +9,13 @@ The intended use for the quiz is for my New Year's Eve party so the quiz will be
 [View live website here](https://e-tidemo.github.io/new-years-quiz/)
 
 # Index - Table of Contents
-* [User experience (UX)] (#user-experience-ux)
-* [Features] (#features)
-* [Design] (#design)
-* [Technologies used] (#technologies-used)
-* [Deployment] (#deployment)
-* [Testing] (#testing)
-* [Credits] (#credits)
+* [User experience (UX)](#user-experience-ux)
+* [Features](#features)
+* [Design](#design)
+* [Technologies used](#technologies-used)
+* [Deployment](#deployment)
+* [Testing](#testing)
+* [Credits](#credits)
 
 - # User Experience (UX)
 The overall goal was for the website to work on a range of different devices. Furthermore, considering the intended audience is a group of people I, myself, know in a New Year's party setting, the theme is a playful one and alcohol consumption need not to be problematised (as it might have should the quiz appeal to a different type of group, for example in a corporate setting).
@@ -126,7 +126,7 @@ The overall goal was for the website to work on a range of different devices. Fu
 
    I also tested the website in Google Chrome, Safari and Mozilla Firefox without any issues arising.
 
-   - ## User experience testing
+   - ## Manual Testing
 
 
    - ## Credits
