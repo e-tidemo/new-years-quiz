@@ -53,9 +53,6 @@ The overall goal was for the website to work on a range of different devices. Fu
     ![Feedback form](documentation/support-images/quiz-feedback-feature.png)
     ![Thank you page](documentation/support-images/quiz-thank-you-page.png)
 
-  - ### 404 Page Not Found
-    I have added a 404 Page Not Found for defensive design.
-
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
 
@@ -143,7 +140,7 @@ The overall goal was for the website to work on a range of different devices. Fu
    ![Lighthouse testing for feedback form](documentation/support-images/feedback-lighthouse.png)
 
    The Thank you-page:
-   ![Lighthouse testing for thank you-page](documentation/support-images/thank-you-page-lighthouse-test.png)
+   ![Lighthouse testing for thank you-page](documentation/support-images/lighthouse-test-thankyoupage.png)
 
 
 - # Deployment
