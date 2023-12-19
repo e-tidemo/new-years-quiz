@@ -135,12 +135,32 @@ The overall goal was for the website to work on a range of different devices. Fu
    - ## Validator Testing
    I used a validator to test my HTML code, my JavaScript and my CSS code with the following results:
 
-   - ### HTML
-   
+   - ### HTML (https://validator.w3.org/)
+   ![html validation](documentation/support-images/html-validation-startpage.png)
 
+   - ### CSS (https://css-validator.org/)
+   ![css validation](documentation/support-images/css-validation-quiz.png)
+
+   - ### JavaScript (https://jshint.com/)
+
+
+   - ## Lighthouse Testing
+   The website was put through Lighthouse testing via Chrome Devtools with the following results:
+
+   The main page:
+   ![Lighthouse testing for main page](documentation/support-images/lighthouse-testing-quiz-main-page.png)
+
+   The Feedback form page:
+   ![Lighthouse testing for feedback form](documentation/support-images/feedback-lighthouse.png)
+
+   The Thank you-page:
+   ![Lighthouse testing for thank you-page](documentation/support-images/thank-you-page-lighthouse-test.png)
 
    - ## Credits
    - ### Code Used
-  https://www.geeksforgeeks.org/how-to-perform-form-validation-for-a-required-field-in-html/ (How to make sure the form is not submitable without input)
-  https://www.w3schools.com/tags/att_meta_http_equiv.asp (Thank you page)
-  https://www.youtube.com/watch?v=f-lSGDjeHCk (How to blur)
+   - I used the following page to learn how to make the meta tag that refreshes he thank you-page after 15 seconds: [Meta refresh tag](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
+
+   - I followed this tutorial to create a blurred background: [Tutorial on blurring the background](https://www.youtube.com/watch?v=f-lSGDjeHCk)
+
+   - ### Acknowledgments
+   I would like to thank my mentor, Spencer Barriball, for his help in guiding me through this process and for providing me with very good resources to help me along in creating this project.
