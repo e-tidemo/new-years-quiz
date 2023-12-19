@@ -112,7 +112,7 @@ The overall goal was for the website to work on a range of different devices. Fu
    I also tested the website in Google Chrome, Safari and Mozilla Firefox without any issues arising.
 
    - ## Manual Testing
-   ![Manual testing](documentation/support-images/manual-testing1.png)
+   ![Manual testing](documentation/support-images/manual-testing.png)
 
    - ## Testing User Stories
    ![User stories testing](documentation/support-images/testing-user-stories.png)
