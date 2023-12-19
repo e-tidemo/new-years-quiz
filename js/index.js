@@ -222,7 +222,7 @@ function endgameOption(chosen) {
  * This function directs the user to the feedback form
  */
 function feedbackOption() {
-  window.location.href='feedback.html'
+  window.location.href='feedback.html';
 }
 /**
  * This function directs the user back to the start page regardless of where on the website the user is

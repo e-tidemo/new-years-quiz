@@ -53,6 +53,9 @@ The overall goal was for the website to work on a range of different devices. Fu
     ![Feedback form](documentation/support-images/quiz-feedback-feature.png)
     ![Thank you page](documentation/support-images/quiz-thank-you-page.png)
 
+  - ### 404 Page Not Found
+    I have added a 404 Page Not Found for defensive design.
+
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
 
@@ -127,7 +130,8 @@ The overall goal was for the website to work on a range of different devices. Fu
    ![css validation](documentation/support-images/css-validation-quiz.png)
 
    - ### JavaScript (https://jshint.com/)
-
+   ![JavaScript validation](documentation/support-images/js-validation.png)
+   The validator flags some variables as unused but they are being called in html and thus are, in fact, being used.
 
    - ## Lighthouse Testing
    The website was put through Lighthouse testing via Chrome Devtools with the following results:
@@ -153,7 +157,7 @@ The overall goal was for the website to work on a range of different devices. Fu
 
     4. Any changes pushed to the master branch will take effect on the live project
 
-    I have continuously used git as my local repository and github as my online repository. To do this, I have created a git repository and then, with any changes I have sent git commits to my local repository and, by using git push, I sent it to my github repository.
+    I have continuously used git as my local repository and GitHub as my online repository. To do this, I created a git repository using the command git init and then, with any changes I have sent git commits to my local repository and, by using git push, I have also sent it to my GitHub repository.
 
     The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
 
