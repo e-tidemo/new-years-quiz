@@ -169,9 +169,8 @@ The overall goal was for the website to work on a range of different devices. Fu
      The image for the website's background is the only image and it was found here: (https://www.pexels.com/sv-se/)
 
    - ### Code Used
-   - I used the following page to learn how to make the meta tag that refreshes he thank you-page after 15 seconds: [Meta refresh tag](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
 
-   - I followed this tutorial to create a blurred background: [Tutorial on blurring the background](https://www.youtube.com/watch?v=f-lSGDjeHCk)
+   - I followed this tutorial on how to create a blurred background: [Tutorial on blurring the background](https://www.youtube.com/watch?v=f-lSGDjeHCk)
 
    - ### Acknowledgments
    I would like to thank my mentor, Spencer Barriball, for his help in guiding me through this process and for providing me with very good resources to help me along in creating this project.
