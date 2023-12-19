@@ -200,6 +200,10 @@ function endgameOption(chosen) {
   }
 }
 
+function feedbackOption() {
+  window.location.href='feedback.html'
+}
+
 function redirect(){
   window.location.href='index.html';
 }

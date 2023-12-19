@@ -35,8 +35,8 @@
      <div id="rulesSection" class="rules">
         <h2>Rules</h2><br>
         <ol>
-            <li>1. No googling the answers<br></li>
-            <li>2. Every time you get a question wrong, you take a shot<br></li>
+            <li>1. No googling the answers</li>
+            <li>2. Every time you get a question wrong, you take a shot</li>
             <li>3. That's it</li>
         </ol>
         <button onclick="next(1)">Let's go!</button>
@@ -55,11 +55,9 @@
   <div id="playAgain">
     <h2>The End!</h2><br>
     <p>Would you like another go?</p>
-    <button onclick="endgameOption(0)">Yes</button>
-    <a href="feedback.html">
-        <button aria-label="This button will direct you to a feedback form but does not open in a new tab.">No, but I have feedback</button>
-    </a>
-    <button onclick="endgameOption(1)" aria-label="This button redirects you to google.com without opening a new window or tab.">No, get me outta here!</button>
+    <button onclick="endgameOption(0)" aria-label="This button redirects you to the start of the game without opening a new tab">Yes</button>
+    <button onclick="feedbackOption(0)" aria-label="This button will direct you to a feedback form but does not open in a new tab.">No, but I have feedback</button>
+    <button onclick="endgameOption(1)" aria-label="This button redirects you to google.com without opening a new tab.">No, get me outta here!</button>
   </div>
  </div>
     <!--Footer-->
