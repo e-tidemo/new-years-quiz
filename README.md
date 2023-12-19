@@ -31,18 +31,27 @@ The overall goal was for the website to work on a range of different devices. Fu
 
 - # Features
   - ## Existing Features
-   - ### Header
+  - ### Header
     In the header one can see a score count that increases with each correct answer and also a restart button that will bring the player back to the start of the quiz.
-   - ### Name input
-    At the start of the quiz, the player submits their name to the webpage and their name then appears next to the score-count in the header.
-   - ### Blur effect
+    ![Header score count](documentation/support-images/quiz-score-count-feature.png)
+
+  - ### Blur effect
     As the concept is a "drunk quiz", there is a feature that makes the text box wobble a little bit throughout the quiz. There is also an effect that blurs the background and an animation that makes the question box wobble quicker than before and blur the text for 4 seconds (before it becomes clear again) when the player answers a question wrong. This is to highlight the "punishment" of answering a question incorrectly which is to take a shot (found in the rules). Once the player answers another question correctly, the blur effect and animation disappears again and the text box goes back to wobbling a bit slower.
-   - ### Play again?
+    ![Blur effect](documentation/support-images/quiz-blur-effect-feature.png)
+    ![Blur effect](documentation/support-images/quiz-blur-effect-feature-2.png)
+
+  - ### Play again?
     At the end of the quiz, the player is given three options - to play again, to leave feedback about the game or to leave the website. Leaving the website directs the player to google.com. If the player wants to leave some feedback on the game, they can click that button which will open a form in a different window and if the player chooses to play again they are redirected to the start page.
+    ![The end of the quiz](documentation/support-images/quiz-play-again-feature.png)
+
   - ### Footer
     In the footer, there are links to social media pages where one could, in theory, follow the quizmakers' pages. There is also a link to the github repository where the project is stored as this is a project that people can keep building on and developing further.
+    ![Footer](documentation/support-images/quiz-footer-feature.png)
+
   - ### Feedback
     At the end of the quiz, the player is given a choice between three options and one of them is to submit feedback about the quiz. The form includes three text inputs: name, positive feedback and suggestions for improvements. When the submit button is clicked, the user is directed to a thank you page where they stay for 15 seconds before being redirected to the start page of the website.
+    ![Feedback form](documentation/support-images/quiz-feedback-feature.png)
+    ![Thank you page](documentation/support-images/quiz-thankyou-feature.png)
 
   - ## Future Features
     The possibilities for improvements when it comes to an online quiz are endless but here are some realistic ideas that could improve this quiz further:
@@ -57,7 +66,7 @@ The overall goal was for the website to work on a range of different devices. Fu
 
   - ## Imagery
   ![Background image](assets/images/pexels-sebastian-hietsch-10967.webp)
-  The imagery for the background was chosen to fit the theme of New Year's Eve and it needed to have enough details that the blur effect was effective enough. I also chose an image without text that would not distract from the contents of the webpage.
+  The imagery for the background was chosen to fit the theme of New Year's Eve and I chose an image without text that would not distract from the contents of the quiz.
 
   - ## Typography
   Google fonts were used to import two different fonts:
@@ -73,12 +82,14 @@ The overall goal was for the website to work on a range of different devices. Fu
   ![Wireframe question - ipad](documentation/wireframes/ipad.png)
   ![Wireframe question - mobile device](documentation/wireframes/mobile%20device.png)
 
+  The final product is slightly different from the wireframes. There is, for example, no footer in the wireframes and the idea of having a feedback form appeared as I worked and was then added.
+
   - # Accessibility
     I have done the following to make sure that the website is as accessible as possible:
     - Used semantic HTML
     - Used contrasting colours throughout the website
     - Used descriptive alt attributes on any images
-    - Provided information for screen readers about links to other websites etc.
+    - Provided information for screen readers about buttons and links to other websites etc.
 
 - # Technologies Used
   - ## Language Used
@@ -110,11 +121,16 @@ The overall goal was for the website to work on a range of different devices. Fu
 
     The live website can be found here: [NYE Drunk Quiz](https://e-tidemo.github.io/new-years-quiz/)
 
+- # Testing
+   Testing was done throughout the project, not least with Chrome developer tools which was used to troubleshoot issues that would arise while building the website and to test the responsiveness of the website on different devices.
+
+   I also tested the website in Google Chrome, Safari and Mozilla Firefox without any issues arising.
+
+   - ## User experience testing
 
 
-
-    - ## Credits
-  - ### Code Used
+   - ## Credits
+   - ### Code Used
   https://www.geeksforgeeks.org/how-to-perform-form-validation-for-a-required-field-in-html/ (How to make sure the form is not submitable without input)
   https://www.w3schools.com/tags/att_meta_http_equiv.asp (Thank you page)
   https://www.youtube.com/watch?v=f-lSGDjeHCk (How to blur)
