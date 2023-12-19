@@ -4,7 +4,7 @@ This is a quiz website for any New Year's Eve party where drinks are consumed (a
 
 The intended use for the quiz is for my New Year's Eve party so the quiz will be displayed on a big screen but then everyone will follow along and play on their own phones. This has affected some of the decisions on features when building the webpage.
 
-//Insert picture of the website//
+![The webpage on some different screens](documentation/support-images/quiz-multiscreen.jpeg)
 
 [View live website here](https://e-tidemo.github.io/new-years-quiz/)
 
